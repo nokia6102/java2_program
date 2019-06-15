@@ -1,0 +1,14 @@
+public class t
+{
+	public static void main(String[] args) throws java.io.IOException
+	{
+	int i=1;
+
+	
+	for(i=1;i<=255;i++)
+	{
+	System.out.print(i+":"+(char)(i)+" ");
+	if (i%10==0)System.out.println();
+	}
+	}
+}

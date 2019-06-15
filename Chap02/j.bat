@@ -1,0 +1,6 @@
+@echo off
+echo Complier ...
+javac %1.java 
+echo Run ...
+java %1 
+echo on
